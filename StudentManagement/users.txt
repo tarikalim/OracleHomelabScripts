@@ -1,2 +1,0 @@
-11111111111,Tarik,Alim,admin123,admin
-22222222222,Hazar Turan,Alim,hazar123,normal
