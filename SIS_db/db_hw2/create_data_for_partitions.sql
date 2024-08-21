@@ -64,8 +64,8 @@ BEGIN
     FOR student_id IN 1..12000 LOOP
         FOR course_num IN 1..5 LOOP
             v_student_id := student_id;
-            v_course_id := TRUNC(DBMS_RANDOM.VALUE(1, 281)); -- 1 ile 280 arasında rastgele bir ders seçilir
-            v_grade := CHR(TRUNC(DBMS_RANDOM.VALUE(65, 70))); -- A, B, C, D, F notlarından biri rastgele seçilir
+            v_course_id := TRUNC(DBMS_RANDOM.VALUE(1, 281));
+            v_grade := CHR(TRUNC(DBMS_RANDOM.VALUE(65, 70)));
             
             INSERT INTO Enrollments (enrollment_id, student_id, course_id, grade)
             VALUES (v_enrollment_id, v_student_id, v_course_id, v_grade);
