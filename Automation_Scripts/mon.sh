@@ -1,3 +1,4 @@
+# you can use gmail application password feature because with default mail function in linux, google will not accept mail sended by your machine even script will not return any error while sending mail.
 #! /usr/bin/env bash
 
 export ORACLE_HOME="/u01/app/oracle/product/21.0.0/dbhome_1"
