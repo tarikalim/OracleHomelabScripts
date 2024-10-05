@@ -39,3 +39,4 @@ start_container "frosty_fermi"
 # check containers before exit
 echo "Running Docker containers:"
 docker ps
+echo "$(date '+%Y-%m-%d %H:%M:%S') - start_all.sh script executed successfully" >> /home/tarik/start_all.log
