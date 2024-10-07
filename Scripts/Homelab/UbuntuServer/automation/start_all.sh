@@ -31,10 +31,9 @@ wait_for_container() {
 
 # container start order.
 start_container "portainer"
-start_container "nextcloud-db-1"
-start_container "nextcloud-app-1"
+start_container "trilium"
 start_container "nginx-web"
-start_container "frosty_fermi"
+start_container "brave_dhawan"
 
 # check containers before exit
 echo "Running Docker containers:"
